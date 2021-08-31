@@ -1,0 +1,2237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
+
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5501/assets/css/bootstrap.min.css">
+    <script type="text/javascript" src="http://127.0.0.1:5501/assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <img src="assets/images/logo3.png">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto col-md-6">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/banner3.jpg" width="1146" height="415" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <section class="shop-products">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="leftside-bar">
+                        <div id="accordian">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseOne">
+                                            Women
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul class="item-product-category">
+                                                <li class="item-sublist">
+                                                    <a href="#fusion">Indian & Fusion Wear</a>
+                                                </li>
+                                                <li class="item-sublist">
+                                                    <a href="#sarees">Sarees</a>
+                                                </li>
+                                                <li class="item-sublist">
+                                                    <a href="#tops">Tops</a>
+                                                </li>
+                                                <li class="item-sublist">
+                                                    <a href="#jeans">Jeans</a>
+                                                </li>
+                                                <li class="item-sublist">
+                                                    <a href="#jumpsuit">JumpSuit</a>
+                                                </li>
+                                                <li class="item-sublist">
+                                                    <a href="#dresses">Dresses</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                kids
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="item-product-category">
+                                    <li class="item-sublist">
+                                        <a href="#c-set">Clothing Sets</a>
+                                    </li>
+                                    <li class="item-sublist">
+                                        <a href="#shirts">T-Shirts</a>
+                                    </li>
+                                    <li class="item-sublist">
+                                        <a href="#shorts">Shorts</a>
+                                    </li>
+                                    <li class="item-sublist">
+                                        <a href="#dress">Dresses</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fusion" class="fusion">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h2>Jeans</h2>
+                    </center>
+                    <div id="myCarousel-f" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-f" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-f" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/in1.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/in2.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/in3.png" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/in4.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/in5.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/in6.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/in7.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/in8.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-f" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-f" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sarees" class="sarees">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h2>Sarees</h2>
+                    </center>
+                    <div id="myCarousel-s" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-s" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-s" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/s1.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Saree</h4>
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/s2.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Saree</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/s3.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Saree</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/s4.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Saree</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/s5.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Saree</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/s6.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Saree</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/s7.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Saree</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/s8.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Saree</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-s" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-s" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tops" class="tops">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h2>Tops</h2>
+                    </center>
+                    <div id="myCarousel-t" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-t" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-t" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/t1.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Top</h4>
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/t2.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Top</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/t3.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Top</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/t4.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Top</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/t5.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Top</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/t6.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Top</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/t7.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Top</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/t8.png" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Top</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-t" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-t" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jeans" class="jeans">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h2>Jeans</h2>
+                    </center>
+                    <div id="myCarousel-j" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-j" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-j" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/je1.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/je2.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/je3.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/je4.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/je5.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/je6.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/je7.png" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/je8.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jeans</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-j" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-j" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jumpsuit" class="jumpsuit">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h2>Jumpsuits</h2>
+                    </center>
+                    <div id="myCarousel-ju" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-ju" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-ju" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/jm1.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jumpsuit</h4>
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/jm2.png" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jumpsuit</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/jm3.png" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jumpsuit</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/jm4.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jumpsuit</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/jm5.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jumpsuit</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/jm6.png" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jumpsuit</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/jm7.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jumpsuit</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/jm8.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Jumpsuit</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-ju" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-ju" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dresses" class="dresses">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h2>Dresses</h2>
+                    </center>
+                    <div id="myCarousel-d" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-d" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-d" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/d1.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/d2.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/d3.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/d4.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/d5.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/d6.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/d7.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/d8.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-d" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-d" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--kids section-->
+    <section id="c-set" class="c-set">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h2>Clothing Set</h2>
+                    </center>
+                    <div id="myCarousel-set" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-set" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-set" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-clothing set-1.jpg" class="img-responsive"
+                                                    alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Clothing Set</h4>
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-clothing set-2.jpg" class="img-responsive"
+                                                    alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Clothing Set</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-clothing set-3.jpg" class="img-responsive"
+                                                    alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Clothing Set</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-clothing set-4.jpg" class="img-responsive"
+                                                    alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Clothing Set</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-clothing set-5.jpg" class="img-responsive"
+                                                    alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Clothing Set</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-clothing set-6.jpg" class="img-responsive"
+                                                    alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Clothing Set</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-clothing set-7.jpg" class="img-responsive"
+                                                    alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Clothing Set</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-clothing set-8.jpg" class="img-responsive"
+                                                    alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Clothing Set</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-set" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-set" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shirts" class="shirts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h2>Kid's Shirts</h2>
+                    </center>
+                    <div id="myCarousel-shirt" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-shirt" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-shirt" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-t-shirt-1.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Kid's Shirts</h4>
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-t-shirt-2.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Kid's Shirts</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-t-shirt-3.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Kid's Shirts</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-t-shirt-4.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Kid's Shirts</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-t-shirt-5.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Kid's Shirts</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-t-shirt-6.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Kid's Shirts</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-t-shirt-7.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Kid's Shirts</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-t-shirt-8.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Kid's Shirts</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-shirt" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-shirt" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shorts" class="shorts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h2>Kid's Shorts</h2>
+                    </center>
+                    <div id="myCarousel-shorts" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-shorts" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-shorts" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-shorts-1.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Shorts</h4>
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-shorts-2.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Shorts</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-shorts-3.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Shorts</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-shorts-4.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Shorts</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-shorts-5.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Shorts</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-shorts-6.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Shorts</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-shorts-7.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Shorts</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-shorts-8.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Shorts</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-shorts" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-shorts" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dress" class="dress">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h2>Kid's Dresses</h2>
+                    </center>
+                    <div id="myCarousel-dress" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-dress" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-dress" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-dress-1.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-dress-2.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-dress-3.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-dress-4.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-dress-5.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-dress-6.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-dress-7.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="assets/images/k-dress-8.jpg" class="img-responsive" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dress</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-dress" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-dress" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="p-3 copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+                        <p class="my-0">Copyright © 2021 <a href="#">ShoPy.</a> All Rights Reserved</p>
+                    </div>
+                    <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+                        <p>Designed by <a href="#" target=" _blank">Nandini & Shivani</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
